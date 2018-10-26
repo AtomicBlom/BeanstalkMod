@@ -1,0 +1,10 @@
+{
+  "private": "true",
+  "scripts": {
+    "compile": "tsc -p ."
+  },
+  "dependencies": {
+    "mcscripting": "git+https://github.com/AtomicBlom/MinecraftScriptingTypeScript.git#f26073b0552950154bfb0153de720b9cf1d2bc8b",
+    "typescript": "^3.1.3"
+  }
+}

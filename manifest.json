@@ -1,23 +1,17 @@
 {
     "format_version": 1,
     "header": {
-        "description": "Example vanilla behavior pack",
-        "name": "Vanilla Behavior Pack",
-        "uuid": "ee649bcf-256c-4013-9068-6a802b89d756",
+        "description": "Prototype mod behavior pack",
+        "name": "Atomic's Prototype Mod",
+        "uuid": "217c0238-759b-48b1-88d8-a530aa6ce38b",
         "version": [0, 0, 1]
     },
     "modules": [
-        {
-            "description": "Example vanilla behavior pack",
-            "type": "data",
-            "uuid": "fa6e90c8-c925-460f-8155-c8a60b753caa",
-            "version": [0, 0, 1]
-        }
-    ],
-    "dependencies": [
-        {
-            "uuid": "743f6949-53be-44b6-b326-398005028819",
-            "version": [0, 0, 1]
-        }
+      {
+        "description": "Prototype mod behavior pack",
+        "type": "data",
+        "uuid": "b18045f7-94f0-40f5-a33f-b15896e214c2",
+        "version": [ 0, 0, 1 ]
+      }
     ]
 }
