@@ -1,0 +1,29 @@
+{
+  "format_version": "1.8.0-beta.1",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "minecraft:lightning_bolt",
+      "minecraft:spawn_egg": {
+        "value": false
+      },
+      "minecraft:is_summonable": {
+        "value": true
+      },
+      "minecraft:is_experimental": {
+        "value": false
+      }
+    },
+
+    "component_groups": {
+    },
+
+    "components": {
+      "minecraft:type_family": {
+        "family":["lightning"]          
+      }
+    },
+
+    "events": {
+    }
+  }
+}
