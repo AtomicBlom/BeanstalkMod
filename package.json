@@ -4,7 +4,7 @@
     "compile": "tsc -p ."
   },
   "dependencies": {
-    "mcscripting": "git+https://github.com/AtomicBlom/MinecraftScriptingTypeScript.git#f26073b0552950154bfb0153de720b9cf1d2bc8b",
+    "mcscripting": "git+https://github.com/AtomicBlom/MinecraftScriptingTypeScript.git#3ab715e18b3ff3545dd73282478340ac98155bb0",
     "typescript": "^3.1.3"
   }
 }

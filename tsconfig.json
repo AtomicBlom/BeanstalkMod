@@ -1,15 +1,16 @@
 {
     "compilerOptions": {
-        "module": "system",
+        "module": "ES6",
         "noImplicitAny": true,
         "types": [
             "mcscripting"
         ]
     },
     "include": [
-        "scripts/**/*"
+        "scripts/client/*",
+        "scripts/server/*",
     ],
     "exclude": [
-        "node_modules",
+        "node_modules"
     ]
 }

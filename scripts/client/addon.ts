@@ -1,17 +1,21 @@
-var clientSystem = client.registerSystem<IVanillaSystem>(0, 0);
+import { BeanstalkEvents } from "../common";
 
-clientSystem.initialize = function() {
-    client.log("Hi world");
+namespace Client {
+    var system = client.registerSystem<IVanillaSystem>(0, 0);
 
-    clientSystem.listenForEvent("minecraft:client_entered_world",
-        (newPlayer) => {
-            clientSystem.broadcastEvent("prototype_mod:notify_player", newPlayer)
-        }
-    );
-};
+    system.initialize = function() {
+        client.log("Hi world");
 
-var currentTick = 0;
+        system.listenForEvent("minecraft:client_entered_world",
+            (newPlayer) => {
+                system.broadcastEvent(BeanstalkEvents.NotifyPlayer, newPlayer)
+            }
+        );
+    };
 
-clientSystem.update = function() {
-    ++currentTick;
-};
+    var currentTick = 0;
+
+    system.update = function() {
+        ++currentTick;
+    };
+}
