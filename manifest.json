@@ -9,7 +9,7 @@
     "modules": [
       {
         "description": "Prototype mod behavior pack",
-        "type": "data",
+        "type": "client_data",
         "uuid": "b18045f7-94f0-40f5-a33f-b15896e214c2",
         "version": [ 0, 0, 1 ]
       }
