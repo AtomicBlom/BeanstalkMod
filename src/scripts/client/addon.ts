@@ -1,7 +1,7 @@
 import { BeanstalkEvents } from "../common";
 
 namespace Client {
-    var system = client.registerSystem<IVanillaSystem>(0, 0);
+    var system = client.registerSystem(0, 0);
 
     system.initialize = function() {
         client.log("Hi world");

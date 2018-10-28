@@ -1,7 +1,7 @@
 import { BeanstalkComponents, BeanstalkEvents, ISeedAgeComponent } from "../common";
 
 namespace Server {
-    interface IPrototypeModSystem extends ISystem<IPrototypeModSystem> {
+    interface IPrototypeModSystem extends IServerSystem<IPrototypeModSystem> {
         checkSeedPlaced(this: IPrototypeModSystem): void;
         allEntitiesView: IView;
         players: IEntityObject[];

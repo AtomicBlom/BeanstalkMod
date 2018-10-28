@@ -7,7 +7,7 @@
   },
   "devDependencies": {
     "lnk": "^1.1.0",
-    "mcscripting": "github:atomicblom/MinecraftScriptingTypeScript#6176afc78f1a0c16ed7f63fdc221accbacf93ac5",
+    "mcscripting": "github:atomicblom/MinecraftScriptingTypeScript#da8495bb43e48e2dca1c126e88580283ab636793",
     "typescript": "^3.1.3"
   }
 }
