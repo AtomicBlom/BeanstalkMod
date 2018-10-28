@@ -1,10 +1,13 @@
 {
   "private": "true",
+  "name": "Beanstalk",
   "scripts": {
-    "compile": "tsc -p ."
+    "compile": "tsc -p src",
+    "postinstall": "node installmod"
   },
-  "dependencies": {
-    "mcscripting": "git+https://github.com/AtomicBlom/MinecraftScriptingTypeScript.git#3ab715e18b3ff3545dd73282478340ac98155bb0",
+  "devDependencies": {
+    "lnk": "^1.1.0",
+    "mcscripting": "github:atomicblom/MinecraftScriptingTypeScript#6176afc78f1a0c16ed7f63fdc221accbacf93ac5",
     "typescript": "^3.1.3"
   }
 }
