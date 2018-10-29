@@ -1,18 +1,16 @@
+// This file keeps IDEs happy, it is not used for compilation
 {
     "compileOnSave": true,
     "compilerOptions": {
         "module": "ES6",
         "noImplicitAny": true,
-      "types": [
-        "mcscripting"
-      ],
-      "outDir": "../behavior",
-      "rootDir": "./"
-
+        "types": [
+            "mcscripting"
+        ],
+        "rootDir": "./src"
     },
     "include": [
-        "scripts/client/*",
-        "scripts/server/*"
+        "src/scripts/*/*",
     ],
     "exclude": [
         "../node_modules"

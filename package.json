@@ -2,12 +2,14 @@
   "private": "true",
   "name": "Beanstalk",
   "scripts": {
-    "compile": "tsc -p src",
-    "postinstall": "node installmod"
+    "build": "gulp build",
+    "installmod": "gulp install"
   },
   "devDependencies": {
-    "lnk": "^1.1.0",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^5.0.0-alpha.3",
     "mcscripting": "github:atomicblom/MinecraftScriptingTypeScript#da8495bb43e48e2dca1c126e88580283ab636793",
+    "pump": "^3.0.0",
     "typescript": "^3.1.3"
   }
 }
