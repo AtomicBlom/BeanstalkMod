@@ -7,9 +7,10 @@
     "installmod": "gulp install"
   },
   "devDependencies": {
+    "gulp": "^4.0.0",
     "gulp-typescript": "^5.0.0-alpha.3",
-    "mcscripting": "github:atomicblom/MinecraftScriptingTypeScript#da8495bb43e48e2dca1c126e88580283ab636793",
     "minecraft-scripting-toolchain": "github:atomicblom/minecraft-scripting-toolchain#bd97caab5dbfbd52875aabbc51757d5d1065a6ec",
+    "minecraft-scripting-types": "github:atomicblom/minecraft-scripting-types#52a61bc45ff1fa54ea390b60964ac1ffa25ea109",
     "typescript": "^3.1.3"
   }
 }

@@ -5,7 +5,7 @@
         "module": "ES6",
         "noImplicitAny": true,
         "types": [
-            "mcscripting"
+            "minecraft-scripting-types"
         ],
         "rootDir": "./src"
     },

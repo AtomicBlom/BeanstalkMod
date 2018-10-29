@@ -15,8 +15,8 @@ namespace Server {
                     seedAge.tickCreated = currentTick;
                     system.applyComponentChanges(seedAge);  
                 }
-            }   
-        ); 
+            }
+        );
 
         system.listenForEvent(BeanstalkEvents.NotifyPlayer,
             (eventData: IEntityObject) => {

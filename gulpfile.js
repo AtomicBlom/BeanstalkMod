@@ -1,14 +1,15 @@
 const ts = require("gulp-typescript");
 const MinecraftModBuilder = require("minecraft-scripting-toolchain")
 
-compileTypeScript = [() => ts({
+const modBuilder = new MinecraftModBuilder("Beanstalk");
+
+compileTypeScript = () => ts({
     noImplicitAny: true,
     "types": [
-        "mcscripting"
+        "minecraft-scripting-types"
     ]
-})];
+});
 
-const modBuilder = new MinecraftModBuilder("Beanstalk");
-modBuilder.scriptTasks = compileTypeScript;
+modBuilder.scriptTasks = [compileTypeScript];
 
 module.exports = modBuilder.configureEverythingForMe();
