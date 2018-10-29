@@ -1,7 +1,7 @@
 const ts = require("gulp-typescript");
 const MinecraftModBuilder = require("./gulp/minecraftmodbuilder")
 
-compileTypeScript = [ts({
+compileTypeScript = [() => ts({
     noImplicitAny: true,
     "types": [
         "mcscripting"
@@ -10,4 +10,5 @@ compileTypeScript = [ts({
 
 const modBuilder = new MinecraftModBuilder("DeployTest");
 modBuilder.scriptTasks = compileTypeScript;
-modBuilder.configureEverythingForMe();
+
+module.exports = modBuilder.configureEverythingForMe();
